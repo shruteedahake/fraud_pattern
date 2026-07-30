@@ -1,9 +1,0 @@
-curl -X POST "http://localhost:9998/fraud-pattern/detect-fraud-patterns" \
--H "Content-Type: application/json" \
--d '{
-  "claim_id": "CLM-2026-5789"
-}'
-{"detail":"Not Found"}
-
-
-INFO:     127.0.0.1:39264 - "POST /fraud-pattern/detect-fraud-patterns HTTP/1.1" 404 Not Found
