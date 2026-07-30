@@ -590,3 +590,13 @@ If nothing notable, return an empty list.
     }
 
 
+
+
+
+
+
+
+-------------------------------------------
+
+LLM response: content='{"patterns": []}' additional_kwargs={'parsed': None, 'refusal': None} response_metadata={'token_usage': {'completion_tokens': 6, 'prompt_tokens': 435, 'total_tokens': 441, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cache_write_tokens': None, 'cached_tokens': 0}, 'latency_checkpoint': {'engine_tbt_ms': 0, 'engine_ttft_ms': 318, 'engine_ttlt_ms': 319, 'pre_inference_ms': 269, 'service_tbt_ms': 2, 'service_ttft_ms': 1156, 'service_ttlt_ms': 1166, 'total_duration_ms': 901, 'user_visible_ttft_ms': 887}}, 'model_provider': 'openai', 'model_name': 'gpt-4.1-2025-04-14', 'system_fingerprint': 'fp_3cba29e44e', 'id': 'chatcmpl-E7GD7xRemPOkJCdxVoyWCHxPabxRo', 'service_tier': 'default', 'prompt_filter_results': [{'prompt_index': 0, 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'jailbreak': {'detected': False, 'filtered': False}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}}], 'finish_reason': 'stop', 'logprobs': None, 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'protected_material_code': {'detected': False, 'filtered': False}, 'protected_material_text': {'detected': False, 'filtered': False}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}} id='lc_run--019fb217-93f1-7b33-8844-2b4422ab2471-0' tool_calls=[] invalid_tool_calls=[] usage_metadata={'input_tokens': 435, 'output_tokens': 6, 'total_tokens': 441, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}
+LLM patterns: []
